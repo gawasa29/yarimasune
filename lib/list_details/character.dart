@@ -39,5 +39,5 @@ final characters = <Character>[
       description: "がわさやりますね〜",
       avatar: "images/characters/takuziru.png",
       color: 0xFF447C12,
-      vois: "assets/audio/takuziru-yarimasune.mp3"),
+      vois: "assets/audio/takuziru-urusaine.mp3"),
 ];

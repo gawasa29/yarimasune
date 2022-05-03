@@ -15,6 +15,7 @@ class _ListPageState extends State<ListPage> {
   PageController? _controller;
 
   _goToDetail(Character character) async {
+    //ここがボイスなる仕組み
     await player.setAsset(character.vois!);
     player.play();
     final page = DetailPage(character: character);
